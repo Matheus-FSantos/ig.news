@@ -1,7 +1,11 @@
 import { ReactElement } from "react";
 import styles from "./styles.module.scss";
 
-const SubscribeButton = (): ReactElement => {
+interface ISubscribeButtonProps {
+	priceId: string
+}
+
+const SubscribeButton = ({ priceId }: ISubscribeButtonProps): ReactElement => {
 	return (
 		<button
 			type="button"
