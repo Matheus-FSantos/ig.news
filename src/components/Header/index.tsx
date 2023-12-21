@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import { SignInButton } from "../SignInButton ";
 import styles from "./styles.module.scss";
 
 const Header = (): ReactElement => {
@@ -10,6 +11,7 @@ const Header = (): ReactElement => {
 					<a className={ styles.active }>Home</a>
 					<a>Posts</a>
 				</nav>
+				<SignInButton />
 			</div>
 		</header>
 	);
