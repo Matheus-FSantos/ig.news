@@ -2,8 +2,14 @@ import styles from "./styles.module.scss";
 
 const Header = () => {
 	return(
-		<header>
-			header works!!!
+		<header className={ styles.headerContainer }>
+			<div className={ styles.headerContent }>
+				<img src="/images/logo.svg" alt="ig.news logo" />
+				<nav>
+					<a className={ styles.active }>Home</a>
+					<a>Posts</a>
+				</nav>
+			</div>
 		</header>
 	);
 }
