@@ -1,11 +1,9 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import style from "../styles/home.module.scss";
 
 const Home = () => {
   return (
     <div>
-      <h1 className={ inter.className }>Hello World</h1>
+      <h1 className={ style.title }>Hello World</h1>
     </div>
   )
 }
