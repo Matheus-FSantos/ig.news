@@ -13,8 +13,6 @@ const Document = () => {
 					href="/favicon.png"
 					type="image/png"
 				/>
-
-        <title>ig.news</title>
       </Head>
       <body>
         <Main />
