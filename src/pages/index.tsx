@@ -2,8 +2,9 @@ import Head from "next/head";
 import styles from "./home.module.scss";
 import { Header } from "../components/Header";
 import { SubscribeButton } from "@/components/SubscribeButton";
+import { ReactElement } from "react";
 
-const Home = () => {
+const Home = (): ReactElement => {
   return (
 		<>
 			<Head>
