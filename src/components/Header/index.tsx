@@ -1,6 +1,7 @@
+import { ReactElement } from "react";
 import styles from "./styles.module.scss";
 
-const Header = () => {
+const Header = (): ReactElement => {
 	return(
 		<header className={ styles.headerContainer }>
 			<div className={ styles.headerContent }>
