@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "./home.module.scss";
-import { Header } from "../components/Header";
 import { SubscribeButton } from "@/components/SubscribeButton";
 import { ReactElement } from "react";
 import { GetStaticProps } from "next";
@@ -25,7 +24,6 @@ const Home = ({ product }: IHomeProps): ReactElement => {
 				<title>Home | ig.news</title>
 			</Head>
 			<div>
-				<Header/>
 				<main className={ styles.contentContainer }>
 					<section className={ styles.hero }>
 						<span>👏 Hey, welcome</span>
